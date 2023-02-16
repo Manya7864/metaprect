@@ -1,0 +1,130 @@
+.class-container{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 2rem 3rem;
+}
+
+.outlet-div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: left;
+    padding: 10px;
+}
+.outlet-image{
+    width: 290px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+.outlet-heading{
+    padding: 0rem 2rem;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #24292f;
+}
+.outlet-content
+{
+    padding: 0rem 2rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #24292f;
+    height: 80px;
+    overflow: hidden;
+}
+.biew-button
+{
+    margin: 0.5rem 2rem;
+    padding: 0.5rem 3rem ;
+    border: 0.5px solid #bbbfc3;
+    border-radius: 5px;
+    color: #bbbfc3;
+    background-color: transparent;
+}
+.nav{
+    width: 100%;
+    padding: 0.5rem 6%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.root-container{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    border: 1px solid #8ac3ff;
+    color:#8ac3ff;
+    padding: 5px 9px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.title-section-container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    background-image: linear-gradient(to right,#10c7f4,#6f43b2);
+    color: #fff;
+}
+.lorem{
+    text-align: center;
+}
+.read-more
+{
+    background-color: white;
+    padding: 9px 10px;
+    outline: none;
+    border: none;
+
+}
+.class-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.class-headin{
+    margin: auto;
+    padding: 6rem 8rem;
+    background-color:  #f8f9fa;
+
+}
+
+.lorem{
+    color: #e6f1f8;
+    font-size: larger;
+}
+.lorem1{
+    color: #767572;
+    font-size: larger;
+}
+
+
+
